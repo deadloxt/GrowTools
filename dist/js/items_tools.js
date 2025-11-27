@@ -604,7 +604,7 @@ function item_decoder(file, using_editor) {
                 timer: 3000
             }).fire({
                 icon: 'error',
-                title: "Your items.dat version is " + version + ", and This decoder doesnt support that version!"
+                title: "Your items.dat version is " + version + ", and This decoder doesnt support that version! ~ deadloxt"
             })
         }
         data_json.version = version
